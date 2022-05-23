@@ -1,30 +1,34 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="contenedorApp">
+    <Seccion1 />
   </div>
-  <router-view/>
 </template>
 
+<script>
+import Seccion1 from "./components/Seccion1.vue"
+export default {
+  components: {
+Seccion1
+  }
+}
+</script>
+
 <style lang="scss">
-#app {
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(3, 24, 8);
+}
+#contenedorApp {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  background: rgb(3, 24, 8);
+  width: 100%;
+  height: 100%;
 }
 </style>
