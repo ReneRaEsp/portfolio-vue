@@ -1,22 +1,28 @@
 <template>
   <div id="contenedorApp">
     <Seccion1 />
+    <Seccion2 />
+    <Tecnologias />    
   </div>
 </template>
 
 <script>
-import Seccion1 from "./components/Seccion1.vue"
+import Seccion1 from "./components/Seccion1.vue";
+import Seccion2 from "./components/Seccion2.vue";
+import Tecnologias from "./components/Tecnologias.vue";
 export default {
   components: {
-Seccion1
+    Seccion1, Seccion2, Tecnologias
   }
 }
 </script>
 
 <style lang="scss">
-*{
+* {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  font-size: 13px;
 }
 body {
   background: rgb(3, 24, 8);
