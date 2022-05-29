@@ -143,7 +143,7 @@
     color: rgba(174, 252, 226, 0.863);
 }
 .card {
-    width: 30rem;
+    width: 20rem;
     height: auto;
     background: rgba(5, 64, 92, 0.534);
     margin-top: 1.5rem;
