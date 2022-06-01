@@ -277,7 +277,7 @@
     flex-direction: column;
     padding-bottom: 5rem;
     .titulo {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         color: rgba(255, 255, 255, 0.801);
