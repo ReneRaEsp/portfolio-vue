@@ -4,27 +4,19 @@ const useProject = () => {
   const projects = ref([
     {
       id: 1,
-      titulo: "Juego de Pokemon",
-      descripcion: "hdhdhdhdhdhd djhdh dhd hdbd hshshhss hdd hs  shdbhdjj",
-      link: "https://reneraesp.github.io/ppokemon/index.html",
-      codigo: "#",
-      imagen: "cuatro.png",
+      titulo: "SeedStore",
+      descripcion: "Plantilla web para tienda online de venta de semillas desarrollada en vanilla javascript",
+      link: "https://reneraesp.github.io/pseedstore/index.html",
+      codigo: "https://github.com/ReneRaEsp/vanilla-js-seedstore",
+      imagen: "seedstore.png",
     },
     {
       id: 2,
-      titulo: "SeedStore",
+      titulo: "Pokemon Game",
       descripcion: "hdhdhdhdhdhd djhdh dhd hdbd hshshhss hdd hs  shdbhdjj",
       link: " https://github.com/ReneRaEsp/vanilla-js-seedstore",
       codigo: "#",
-      imagen: "presupuesto.png",
-    },
-    {
-      id: 3,
-      titulo: "Presupuesto",
-      descripcion: "hdhdhdhdhdhd djhdh dhd hdbd hshshhss hdd hs  shdbhdjj",
-      link: " https://github.com/ReneRaEsp/vanilla-js-seedstore",
-      codigo: "#",
-      imagen: "presupuesto.png",
+      imagen: "pokemon.png",
     },
   ]);
 
