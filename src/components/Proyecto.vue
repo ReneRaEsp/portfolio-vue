@@ -10,8 +10,8 @@
       {{ descripcion }}
     </p>
     <div class="contBotones">
-      <button class="btn btn1">Código</button>
-      <button class="btn">Deploy</button>
+      <a :href="codigo" class="btn btn1">Código</a>
+      <a :href="link" class="btn">Deploy</a>
     </div>
   </div>
 </template>
@@ -30,6 +30,10 @@ export default {
     link: {
       type: String,
       default: "#",
+    },
+    codigo: {
+      type: String,
+      default: "#"
     },
     imagen: {
       type: String,
@@ -65,7 +69,7 @@ export default {
   color: rgba(174, 252, 226, 0.863);
 }
 .card {
-  width: 10rem;
+  width: 18rem;
   height: auto;
   background: rgba(5, 64, 92, 0.534);
   margin-top: 1rem;
@@ -83,6 +87,9 @@ export default {
     justify-content: space-evenly;
     padding: 1rem;
     .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 6rem;
       height: 2rem;
       font-size: 1rem;
@@ -91,6 +98,7 @@ export default {
       color: rgb(50, 115, 212);
       border: 2px solid rgb(50, 115, 212);
       border-radius: 1rem;
+      text-decoration: none;
       transition: 1s ease;
       &:hover {
         background: rgba(209, 255, 246, 0.747);
