@@ -277,7 +277,7 @@
     flex-direction: column;
     padding-bottom: 5rem;
     .titulo {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         color: rgba(255, 255, 255, 0.801);
@@ -293,14 +293,14 @@
             width: 45rem;
             height: 37rem;
             background: rgba(4, 58, 13, 0.397);
-            border-radius: 2.4rem;
+            border-radius: 2rem;
             .contTitulo {
                 display: flex;
                 justify-content: center;
                 padding-top: 2rem;
                 padding-bottom: 2rem;
                 .tecTitulo {
-                    font-size: 1.4rem;
+                    font-size: 1.1rem;
                     color: rgba(42, 189, 54, 0.705);
                 }
             }
@@ -317,10 +317,13 @@
                         width: 2rem;
                     }
                     .tituloTec {
+                        font-size: 0.9rem;
                         font-weight: bold;
                         color: rgba(144, 230, 236, 0.856);
                     }
                     .parraTec {
+                        margin-top: .5rem;
+                        font-size: .8rem;
                         font-weight: 200;
                         color: rgba(171, 173, 173, 0.856);
                     }
@@ -343,7 +346,7 @@
             padding-top: 1rem;
             padding-bottom: 0.5rem;
             .titulo {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 color: rgba(42, 189, 54, 0.705);
             }
         }
@@ -360,10 +363,13 @@
                     width: 2rem;
                 }
                 .tituloTec {
+                    font-size: .9rem;
                     font-weight: bold;
                     color: rgba(144, 230, 236, 0.856);
                 }
                 .parraTec {
+                    margin-top: .5rem;
+                     font-size: .79rem;
                     font-weight: 200;
                     color: rgba(171, 173, 173, 0.856);
                 }

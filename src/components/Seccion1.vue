@@ -73,7 +73,7 @@ export default {
         margin-top: 2rem;
         color: white;
         font-weight: bold;
-        font-size: 2.9rem;
+        font-size: 2rem;
     }
     .titulo {
         margin-top: 1rem;
@@ -93,32 +93,32 @@ export default {
             background: rgb(0, 0, 0);
             margin-bottom: 1rem;
             color: rgba(68, 218, 38, 0.733);
-            border: 3px solid rgba(27, 165, 50, 0.747);
+            border: 2px solid rgba(27, 165, 50, 0.747);
             padding: 1rem;
-            font-size: 1.6rem;
+            font-size: 1rem;
             border-radius: 0.5rem;
             transition: 1.2s ease;
             cursor: pointer;
             &:hover {
                 background: rgba(255, 255, 255, 0.432);
                 color: rgba(26, 85, 14, 0.733);
-                border: 3px solid rgba(16, 94, 29, 0.747);
+                border: 2px solid rgba(16, 94, 29, 0.747);
             }
         }
         .botonB {
             background: rgba(43, 156, 20, 0.733);
             color: rgb(18, 56, 10);
-            border: 3px solid rgba(43, 156, 20, 0.733);
+            border: 2px solid rgba(43, 156, 20, 0.733);
             padding: 1rem;
             margin-bottom: 1rem;
-            font-size: 1.6rem;
+            font-size: 1rem;
             border-radius: 0.5rem;
             transition: 1.2s ease;
             cursor: pointer;
             &:hover {
                 background: rgba(255, 255, 255, 0.438);
                 color: rgba(26, 85, 14, 0.733);
-                border: 3px solid rgba(16, 94, 29, 0.747);
+                border: 2px solid rgba(16, 94, 29, 0.747);
             }
         }
     }
@@ -126,7 +126,7 @@ export default {
         display: flex;
         justify-content: space-around;
         margin-top: 10rem;
-        padding: 0.9rem;
+        padding: 0.1rem;
         font-weight: bold;
         max-width: 20rem;
         width: auto;

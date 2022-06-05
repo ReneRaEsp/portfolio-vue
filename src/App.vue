@@ -27,10 +27,10 @@ export default {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-size: 13px;
 }
 body {
   background: rgb(3, 24, 8);
+  //font-size: 13px;
 }
 #contenedorApp {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -41,5 +41,6 @@ body {
   background: rgb(3, 24, 8);
   width: 100%;
   height: 100%;
+  //font-size: 13px;
 }
 </style>
