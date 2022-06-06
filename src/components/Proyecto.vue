@@ -10,8 +10,14 @@
       {{ descripcion }}
     </p>
     <div class="contBotones">
-      <a :href="codigo" class="btn btn1">Código</a>
-      <a :href="link" class="btn">Deploy</a>
+      <a
+        style="display: none"
+        target="_BLANK"
+        :href="codigo"
+        class="btn btn1 hidden"
+        >Código</a
+      >
+      <a target="_BLANK" :href="link" class="btn">Deploy</a>
     </div>
   </div>
 </template>
@@ -29,16 +35,16 @@ export default {
     },
     link: {
       type: String,
-      default: "#",
+      default: "",
     },
     codigo: {
       type: String,
-      default: "#"
+      default: "",
     },
     imagen: {
       type: String,
-      default: ""
-    }
+      default: "",
+    },
   },
   setup() {
     return {};
@@ -48,6 +54,7 @@ export default {
 
 <style lang="scss" scoped>
 //utility classes
+
 .cont {
   display: flex;
   justify-content: center;
@@ -69,7 +76,7 @@ export default {
   color: rgba(174, 252, 226, 0.863);
 }
 .card {
-  width: 18rem;
+  width: 22rem;
   height: auto;
   background: rgba(5, 64, 92, 0.534);
   margin-top: 1rem;
@@ -77,9 +84,12 @@ export default {
   border-radius: 2.5rem;
 }
 .imagenP {
-  border-radius: 1.2rem;
-  width: 84%;
+  border-radius: 0rem;
+  width: 100%;
   height: 10rem;
+}
+.hidden {
+  display: none;
 }
 .card {
   .contBotones {

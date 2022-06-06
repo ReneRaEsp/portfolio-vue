@@ -11,9 +11,9 @@
         <div class="sobremiP">
           <p>
             Mi nombre es René Ramírez tengo 27 años soy full stack developer
-            (MEVN/MERN), soy técnico en informática y también un autodidacta
-            apasionado por el desarrollo web, lo que más me gusta de este es el hecho de
-            poder llevar a la realidad grandes ideas utilizando las más
+            (MEVN/MERN), técnico en informática y también un autodidacta
+            apasionado por el desarrollo web, lo que más me gusta de este es el
+            hecho de poder llevar a la realidad grandes ideas utilizando las más
             innovadoras tecnologías y el orgullo de sentir que has logrado o has
             participado en lograrlo.
           </p>
@@ -128,7 +128,7 @@ export default {
       height: 50rem;
       background: rgba(95, 95, 95, 0);
       .foto {
-        width: 22rem;
+        width: 18rem;
         border-radius: 20px;
       }
       .sobremiP {
@@ -211,14 +211,25 @@ export default {
         }
       }
       .izquierda {
-        width: 90%;
+        width: 100%;
+        height: auto;
         .foto {
-          width: 7rem;
-          height: 4rem;
+          margin-top: 2rem;
+          width: 60%;
+        }
+        .sobremiP {
+          margin-top: 2rem;
+          background: rgba(0, 0, 0, 0.226);
+          padding: 1.4rem;
+          line-height: 20px;
+          p {
+            color: rgba(23, 77, 127, 0.863);
+            font-weight: 300;
+            font-size: 0.9rem;
+          }
         }
       }
     }
   }
 }
 </style>
-

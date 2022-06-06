@@ -52,7 +52,7 @@
       </div>
       <div class="derecha">
         <div class="links">
-          <a href="#" class="link">
+          <a href="https://t.me/rrteam7" target="_BLANK" class="link">
             <svg
               class="icono telegram"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,11 @@
             </svg>
             <p class="texto">Inicia una conversación en Telegram</p>
           </a>
-          <a href="#" class="link">
+          <a
+            href="https://wa.link/bw0b1w"
+            target="_BLANK"
+            class="link"
+          >
             <svg
               class="icono"
               xmlns="http://www.w3.org/2000/svg"
@@ -200,4 +204,3 @@
   }
 }
 </style>
-

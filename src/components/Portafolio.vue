@@ -9,6 +9,7 @@
           :titulo="project.titulo"
           :descripcion="project.descripcion"
           :link="project.link"
+          :codigo="project.codigo"
           :imagen="project.imagen"
         />
       </div>
@@ -95,4 +96,3 @@ export default {
   }
 }
 </style>
-
