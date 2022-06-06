@@ -54,14 +54,6 @@ export default {
   font-weight: bold;
   color: rgba(174, 252, 226, 0.863);
 }
-.card {
-  width: 20rem;
-  height: auto;
-  background: rgba(5, 64, 92, 0.534);
-  margin-top: 1.5rem;
-  padding-top: 1.2rem;
-  border-radius: 2.5rem;
-}
 .imagenP {
   border-radius: 1.2rem;
   width: 84%;
@@ -81,10 +73,7 @@ export default {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 400px) {
-  .card {
-    height: auto;
-  }
+@media screen and (max-width: 400px) { 
   .titulo {
     font-size: 1.1rem;
   }
