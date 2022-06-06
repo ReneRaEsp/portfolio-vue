@@ -11,9 +11,9 @@
         <div class="sobremiP">
           <p>
             Mi nombre es René Ramírez tengo 27 años soy full stack developer
-            (MEVN/MERN), técnico en informática y también un autodidacta
+            (MEVN/MERN), técnico informático y también un autodidacta
             apasionado por el desarrollo web, lo que más me gusta de este es el
-            hecho de poder llevar a la realidad grandes ideas utilizando las más
+            hecho de que te permite llevar a la realidad grandes ideas utilizando las más
             innovadoras tecnologías y el orgullo de sentir que has logrado o has
             participado en lograrlo.
           </p>

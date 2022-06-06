@@ -438,6 +438,7 @@
     .seccion1 {
       .izquierda,
       .derecha {
+        margin-top: 1rem;
         width: 45rem;
         height: auto;
         .contTitulo {
