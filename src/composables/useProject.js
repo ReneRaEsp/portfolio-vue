@@ -26,7 +26,7 @@ const useProject = () => {
       titulo: "Pokémon Game",
       descripcion:
         "Juego de pokemon desarrollado en Vue.js el cual consume el api oficial de pokemon",
-      link: " https://github.com/ReneRaEsp/vanilla-js-seedstore",
+      link: "https://ReneRaEsp.github.io/ppokemon/index.html",
       codigo: "#",
       imagen: "pokemon.png",
     },
@@ -35,7 +35,7 @@ const useProject = () => {
       titulo: "Si ó No App",
       descripcion:
         "Aplicacion desarrollada en Vue la cual consume un api publica de gifts",
-      link: "https://github.com/ReneRaEsp/vanilla-js-seedstore",
+      link: "https://ReneRaEsp.github.io/psiono/index.html",
       codigo: "#",
       imagen: "siono.png",
     },

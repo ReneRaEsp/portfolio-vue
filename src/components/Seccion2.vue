@@ -223,8 +223,8 @@ export default {
           padding: 1.4rem;
           line-height: 20px;
           p {
-            color: rgba(23, 77, 127, 0.863);
-            font-weight: 300;
+            color: rgba(123, 177, 227, 0.863);
+            font-weight: 500;
             font-size: 0.9rem;
           }
         }
