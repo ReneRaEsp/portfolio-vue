@@ -76,7 +76,7 @@ export default {
   color: rgba(174, 252, 226, 0.863);
 }
 .card {
-  width: 22rem;
+  width: 19rem;
   height: auto;
   background: rgba(5, 64, 92, 0.534);
   margin-top: 1rem;
@@ -123,6 +123,11 @@ export default {
 @media screen and (max-width: 400px) {
   .card {
     width: 100%;
-  } 
+  }
+  .imagenP {
+    border-radius: 0rem;
+    width: 100%;
+    height: 8.6rem;
+  }
 }
 </style>
