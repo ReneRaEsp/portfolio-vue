@@ -124,7 +124,7 @@ const useProject = () => {
 
   return {
     projects,
-    listProjects,
+    listProjects
   };
 };
 
