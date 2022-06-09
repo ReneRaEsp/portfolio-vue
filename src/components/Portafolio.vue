@@ -11,27 +11,39 @@
           :link="project.link"
           :codigo="project.codigo"
           :imagen="project.imagen"
+          :isEdit="isEdit"
         />
       </div>
     </div>
   </div>
 </template>
 <script>
+import { ref } from "vue";
+import { useRoute } from "vue-router";
 import Proyecto from "./Proyecto.vue";
 import useProject from "./../composables/useProject.js";
 
 export default {
   setup() {
+    const route = useRoute();
     const { projects, listProjects } = useProject();
+    const isEdit = ref(false);
+    
+    if(route.path === "/admin"){
+      isEdit.value = true;
+    } else {
+      isEdit.value = false;
+    }
 
     listProjects();
 
     return {
       projects,
+      isEdit
     };
   },
   components: {
-    Proyecto,
+    Proyecto
   },
 };
 </script>

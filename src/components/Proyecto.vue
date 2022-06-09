@@ -10,11 +10,12 @@
       {{ descripcion }}
     </p>
     <div class="contBotones">
+      <a class="btn btn1" v-if="isEdit" href="#"> Editar </a>
       <a
         style="display: none"
         target="_BLANK"
         :href="codigo"
-        class="btn btn1 hidden"
+        class="btn btn1"
         >Código</a
       >
       <a target="_BLANK" :href="link" class="btn">Deploy</a>
@@ -48,6 +49,10 @@ export default {
       type: String,
       default: "",
     },
+    isEdit: {
+      type: Boolean,
+      default: false
+    }
   },
 };
 </script>
