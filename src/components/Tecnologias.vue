@@ -316,8 +316,41 @@
             />
           </svg>
 
-          <h3 class="tituloTec">Linux</h3>
-          <h4 class="parraTec">Avanzado</h4>
+          <h3 class="tituloTec">Heroku</h3>
+          <h4 class="parraTec">Intermedio ++</h4>
+        </div>
+        <div class="card">
+          <svg
+            class="icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              fill="#fff"
+              d="M304 0h-224c-35.35 0-64 28.65-64 64v384c0 35.35 28.65 64 64 64h224c35.35 0 64-28.65 64-64V64C368 28.65 339.3 0 304 0zM192 480c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 480 192 480zM304 64v320h-224V64H304z"
+            />
+          </svg>
+          <h3 class="tituloTec">
+            Desarrollo<br />
+            Responsive
+          </h3>
+          <h4 class="parraTec">Itermedio +</h4>
+        </div>
+        <div class="card">
+          <svg
+            class="icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512"
+          >
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              fill="#fff"
+              d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"
+            />
+          </svg>
+          <h3 class="tituloTec">PWA (Progressive Web Applications)</h3>
+          <h4 class="parraTec">Itermedio +</h4>
         </div>
       </div>
     </div>
@@ -366,7 +399,7 @@
         .card {
           margin-top: 1.4rem;
           width: 10rem;
-          height: 6rem;
+          height: auto;
           background: rgba(0, 0, 0, 0);
           .icon {
             width: 2rem;
@@ -413,7 +446,7 @@
       .card {
         margin-top: 1.4rem;
         width: 13rem;
-        height: 6rem;
+        height: auto;
         background: rgba(0, 0, 0, 0);
         .icon {
           width: 2rem;
@@ -455,4 +488,3 @@
   }
 }
 </style>
-
