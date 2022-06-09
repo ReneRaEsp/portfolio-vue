@@ -1,4 +1,5 @@
 import { ref } from "vue";
+import axios from "axios";
 
 const useProject = () => {
   const projects = ref([
@@ -104,15 +105,26 @@ const useProject = () => {
     {
       id: 12,
       titulo: "Breaking Bad Frases",
-      descripcion: "Pagina desarrollada en react la cual consume api rest de frases de breaking bad",
+      descripcion:
+        "Pagina desarrollada en react la cual consume api rest de frases de breaking bad",
       link: "https://reneraesp.github.io/preact/breakingbad-frases/index.html",
       codigo: "",
       imagen: "bb.png",
     },
   ]);
 
+  const listProjects = () => {
+    axios
+      .get("http://127.0.0.1:8000/api/proyectos")
+      .then((res) => {
+        projects.value = res.data;
+      })
+      .catch(console.log);
+  };
+
   return {
     projects,
+    listProjects,
   };
 };
 

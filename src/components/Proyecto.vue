@@ -24,6 +24,9 @@
 
 <script>
 export default {
+  setup() {
+    return {};
+  },
   props: {
     titulo: {
       type: String,
@@ -45,9 +48,6 @@ export default {
       type: String,
       default: "",
     },
-  },
-  setup() {
-    return {};
   },
 };
 </script>
@@ -76,7 +76,7 @@ export default {
   color: rgba(174, 252, 226, 0.863);
 }
 .card {
-  width: 19rem;
+  width: 18rem;
   height: auto;
   background: rgba(5, 64, 92, 0.534);
   margin-top: 1rem;
@@ -123,11 +123,9 @@ export default {
 @media screen and (max-width: 400px) {
   .card {
     width: 100%;
-  }
-  .imagenP {
-    border-radius: 0rem;
-    width: 100%;
-    height: 8.6rem;
+    .imagenP {
+      height: 9rem;
+    }
   }
 }
 </style>

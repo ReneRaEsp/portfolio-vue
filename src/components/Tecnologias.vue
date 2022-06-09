@@ -382,6 +382,7 @@
       height: 22rem;
       background: rgba(4, 58, 13, 0.397);
       border-radius: 2rem;
+      padding-bottom: 1.7rem;
       .contTitulo {
         display: flex;
         justify-content: center;

@@ -22,7 +22,10 @@ import useProject from "./../composables/useProject.js";
 
 export default {
   setup() {
-    const { projects } = useProject();
+    const { projects, listProjects } = useProject();
+
+    listProjects();
+
     return {
       projects,
     };
@@ -73,7 +76,7 @@ export default {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 400px) { 
+@media screen and (max-width: 400px) {
   .titulo {
     font-size: 1.1rem;
   }
