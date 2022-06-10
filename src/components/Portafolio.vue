@@ -6,6 +6,7 @@
     <div class="contProyectos">
       <div v-for="project in projects" :key="project.id">
         <Proyecto
+          :id="project.id"
           :titulo="project.titulo"
           :descripcion="project.descripcion"
           :link="project.link"

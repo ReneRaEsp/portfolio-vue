@@ -10,25 +10,43 @@
       {{ descripcion }}
     </p>
     <div class="contBotones">
-      <a class="btn btn1" v-if="isEdit" href="#"> Editar </a>
-      <a
-        style="display: none"
-        target="_BLANK"
-        :href="codigo"
-        class="btn btn1"
+      <router-link class="btn btn1" v-if="isEdit" :to="editRoute">
+        Editar
+      </router-link>
+      <a style="display: none" target="_BLANK" :href="codigo" class="btn btn1"
         >Código</a
       >
       <a target="_BLANK" :href="link" class="btn">Deploy</a>
+      <div v-if="isEdit" class="btn eliminar" @click="onClick()">Eliminar</div>
     </div>
   </div>
 </template>
 
 <script>
+import { ref } from "vue";
+import useProject from "./../composables/useProject.js";
+
 export default {
-  setup() {
-    return {};
+  setup(props) {
+    const { removeProject } = useProject();
+    const editRoute = ref("");
+
+    editRoute.value = "/editar/" + props.id;
+
+    const onClick = () => {
+      removeProject(props.id);
+    };
+
+    return {
+      editRoute,
+      onClick,
+    };
   },
   props: {
+    id: {
+      type: Number,
+      default: null,
+    },
     titulo: {
       type: String,
       default: "",
@@ -51,8 +69,8 @@ export default {
     },
     isEdit: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
 };
 </script>
@@ -110,18 +128,23 @@ export default {
       font-size: 1rem;
       font-weight: bold;
       background: rgba(33, 105, 90, 0.747);
-      color: rgb(50, 115, 212);
-      border: 2px solid rgb(50, 115, 212);
+      color: rgb(250, 215, 212);
       border-radius: 1rem;
       text-decoration: none;
       transition: 1s ease;
       &:hover {
         background: rgba(209, 255, 246, 0.747);
+        color: rgb(25, 45, 22);
         cursor: pointer;
       }
     }
     .btn1 {
-      background: rgba(33, 105, 91, 0.185);
+      background: rgba(33, 205, 91, 0.185);
+      color: rgba(174, 252, 226, 0.863);
+    }
+    .eliminar {
+      background: rgba(174, 82, 76, 0.863);
+      color: rgb(250, 215, 212);
     }
   }
 }
