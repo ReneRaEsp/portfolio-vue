@@ -4,12 +4,11 @@ const useProject = () => {
   const projects = ref([
     {
       id: 1,
-      titulo: "SeedStore",
-      descripcion:
-        "Plantilla web para tienda online de venta de semillas desarrollada en vanilla javascript",
-      link: "https://reneraesp.github.io/pseedstore/index.html",
-      codigo: "https://github.com/ReneRaEsp/vanilla-js-seedstore",
-      imagen: "seedstore.png",
+      titulo: "Bingo Game",
+      descripcion: "Juego de bingo desarrollado utilizando modelo cliente servidor, consta de un cliente en React(Javascript) el cual consume un api en Laravel(PHP)",
+      link: "https://62bba92497b313422697ddc8--euphonious-daifuku-8bb3ed.netlify.app/",
+      codigo: "",
+      imagen: "bingo.png",
     },
     {
       id: 2,
@@ -108,6 +107,15 @@ const useProject = () => {
       link: "https://reneraesp.github.io/preact/breakingbad-frases/index.html",
       codigo: "",
       imagen: "bb.png",
+    },
+    {
+      id: 13,
+      titulo: "SeedStore",
+      descripcion:
+        "Plantilla web para tienda online de venta de semillas desarrollada en vanilla javascript",
+      link: "https://reneraesp.github.io/pseedstore/index.html",
+      codigo: "https://github.com/ReneRaEsp/vanilla-js-seedstore",
+      imagen: "seedstore.png",
     },
   ]);
 

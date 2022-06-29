@@ -5,7 +5,7 @@
       :src="require('./../assets/img/' + imagen)"
       alt="proyecto portafolio René Ramírez"
     />
-    <h3 class="titulo">{{ titulo }}</h3>
+    <h3 class="titulo">{{ titulo }} <span v-if="titulo == 'Bingo Game'" style="color: cyan;">(Más Reciente)</span></h3>
     <p class="parrafo">
       {{ descripcion }}
     </p>
@@ -76,6 +76,7 @@ export default {
   color: rgba(174, 252, 226, 0.863);
 }
 .card {
+  margin-right: 2rem;
   width: 19rem;
   height: auto;
   background: rgba(5, 64, 92, 0.534);
