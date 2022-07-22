@@ -6,7 +6,7 @@ const useProject = () => {
       id: 1,
       titulo: "Bingo Game",
       descripcion: "Juego de bingo desarrollado utilizando modelo cliente servidor, consta de un cliente en React(Javascript) el cual consume un api en Laravel(PHP)",
-      link: "https://62bba92497b313422697ddc8--euphonious-daifuku-8bb3ed.netlify.app/",
+      link: "https://euphonious-daifuku-8bb3ed.netlify.app/",
       codigo: "",
       imagen: "bingo.png",
     },
@@ -19,7 +19,6 @@ const useProject = () => {
       codigo: "https://github.com/ReneRaEsp/mevn-frontend-dbsistema",
       imagen: "mevncompras.png",
     },
-
     {
       id: 3,
       titulo: "Pokémon Game",
@@ -87,7 +86,7 @@ const useProject = () => {
       titulo: "Libros Spring",
       descripcion:
         "Proyecto web desarrollado en Java utilizando Spring MVC incluye manejo de sesion e internalizacion",
-      link: "https://immense-bayou-16426.herokuapp.com/",
+      link: "https://libros-spring.herokuapp.com/",
       codigo: "",
       imagen: "librospring.png",
     },
