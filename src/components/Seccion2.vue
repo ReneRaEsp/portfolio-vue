@@ -33,7 +33,7 @@
             />
           </svg>
           <h2 class="encabezado">Experiencia</h2>
-          <p class="cuerpo">3+ Años desarrollando</p>
+          <p class="cuerpo">3+ Años programando</p>
         </div>
         <div class="box">
           <svg
@@ -84,7 +84,8 @@
           </svg>
           <h2 class="encabezado">Ingles</h2>
           <p class="cuerpo">
-            Comprension/Lectura: avanzado, Hablado: intermedio
+            C1 Avanzado de acuerdo al Marco Común Europeo de Referencia (CEFR).
+            <a class="cuerpo" href="https://www.efset.org/cert/CgECYy" target="_blank">Link del certificado</a>
           </p>
         </div>
       </div>
@@ -107,7 +108,7 @@ export default {
   align-items: center;
   flex-direction: column;
   height: auto;
-  background: rgba(3, 29, 27, 0.205);
+  background: rgba(10, 40, 62, 0.503);
   padding-top: 2rem;
   .titulo {
     color: rgb(233, 233, 233);

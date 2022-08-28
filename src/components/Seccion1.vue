@@ -4,9 +4,15 @@
     <h2 class="nombre">René Ramírez</h2>
     <h3 class="titulo">FullStack Developer (MERN/MEVN)</h3>
     <div class="botones1">
-      <a
+      <!--<a
         href="./../assets/dowloads/ReneRamirezDesarrolladorWebCV.pdf"
-        download="ReneRamirezDesarrolladorWebCV.pdf"
+        download
+        class="botonA"
+        >Descargar CV</a
+      >-->
+      <a
+        :href="'/downloads/ReneRamirezCV.pdf'"
+        download
         class="botonA"
         >Descargar CV</a
       >
@@ -86,7 +92,7 @@ export default {
   flex-direction: column;
   width: 100%;
   height: 50rem;
-  //background: rgb(56, 214, 64);
+  background: rgba(10, 40, 62, 0.503);
   .bienvenida {
     margin-top: 7rem;
     color: rgba(244, 242, 212, 0.65);

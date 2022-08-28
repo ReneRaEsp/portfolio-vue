@@ -63,8 +63,8 @@ export default {
 .Portafolio {
   width: 100%;
   height: auto;
-  background: rgba(49, 49, 49, 0.534);
   padding-bottom: 2rem;
+  background: rgba(10, 40, 62, 0.503);
   .contProyectos {
     display: flex;
     justify-content: space-evenly;

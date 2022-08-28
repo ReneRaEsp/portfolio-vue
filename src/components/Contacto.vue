@@ -103,6 +103,7 @@
 }
 // Semantic clases
 .contacto {
+  background: rgba(10, 40, 62, 0.503);
   .tituloCont {
     margin-top: 3rem;
     margin-bottom: 4rem;

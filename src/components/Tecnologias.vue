@@ -364,6 +364,7 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 5rem;
+  background: rgba(10, 40, 62, 0.503);
   .titulo {
     font-size: 1.2rem;
     margin-top: 2rem;
